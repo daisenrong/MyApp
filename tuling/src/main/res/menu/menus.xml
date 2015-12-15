@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/more"
+        android:icon="@mipmap/more"
+        android:showAsAction="always"
+        android:title="更多">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/haha"
+                android:icon="@mipmap/haha"
+
+                android:title="笑话"/>
+            <item
+                android:id="@+id/weather"
+                android:icon="@mipmap/weather"
+                android:title="天气"/>
+
+        </menu>
+    </item>
+</menu>
